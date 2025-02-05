@@ -6,7 +6,7 @@ public class StateMachine : MonoBehaviour
 {
 
     public State initialState; // Punto de entrada del estado
-    private State _currentState; // Estado actual que se ejecuta 
+    public State _currentState; // Estado actual que se ejecuta 
 
     // Start is called before the first frame update
     void Start()
